@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-public class Space
+interface IMovable
 {
-    public double x, y;
     public double XX
     {
         get
@@ -23,6 +21,34 @@ public class Space
             return y = Convert.ToDouble(Console.ReadLine());
         }
     }
+}
+interface IRotate
+{
+    
+}
+interface UOrigin
+{
+
+}
+public class Space : IMovable, IRotate, UOrigin
+{
+    // public double x, y;
+    // public double XX
+    // {
+    //     get
+    //     {
+    //         Console.Write("Введите x: ");
+    //         return x = Convert.ToDouble(Console.ReadLine());
+    //     }
+    // }
+    // public double YY
+    // {
+    //     get
+    //     {
+    //         Console.Write("Введите y: ");
+    //         return y = Convert.ToDouble(Console.ReadLine());
+    //     }
+    // }
     static public void Print(double spaceship, double spaceship1)
     {
         Console.WriteLine($"Pos: {spaceship} {spaceship1}");
