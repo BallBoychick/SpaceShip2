@@ -9,6 +9,6 @@ public class MoveCommand : ICommand
     }
     public void execute()
     {
-        throw new NotImplementedException(); //i don't understand
+        throw new NotImplementedException(); //i don't understan
     }
 }
