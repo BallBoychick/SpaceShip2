@@ -2,13 +2,14 @@ namespace SpaceBattle.Lib;
 
 public class MoveCommand : ICommand
 {
-    private IMovable obj;
+    private readonly IMovable moving;
+    // private IMovable obj;
     public MoveCommand(IMovable obj)
     {
-        this.obj = obj;
+        moving = obj;
     }
     public void execute()
     {
-        throw new NotImplementedException();
+        moving.Position += moving.Velocity;
     }
 }
