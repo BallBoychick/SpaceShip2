@@ -1,4 +1,7 @@
-﻿namespace SpaceBattle.Lib;
+﻿using System.Runtime.CompilerServices;
+namespace SpaceBattle.Lib;
+using System.Diagnostics.CodeAnalysis;
+[ExcludeFromCodeCoverage]
 public class Vector
 {
     private double[] coords;
@@ -82,7 +85,7 @@ public class Vector
     }
     public override bool Equals(object? obj)
     {
-        return base.Equals(obj);
+        return obj is Vector v && coords.SequenceEqual(v.coords);
     }
     public override int GetHashCode()
     {
