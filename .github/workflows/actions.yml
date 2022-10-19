@@ -17,9 +17,9 @@ jobs:
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
       - name: Install dependencies
-        run: dotnet restore ./SpaceBattle.Lib
+        run: dotnet restore
       - name: Build
-        run: dotnet build ./SpaceBattle.Lib --configuration Release --no-restore
+        run: dotnet build --configuration Release --no-restore
       - name: Test
         run: dotnet test -p:CollectCoverage=true -p:CoverletOutput=/TestResults/coverage.opencover.xml -p:CoverletOutputFormat=opencover --no-build --verbosity normal ./SpaceBattle.Lib.Test
       - name: "Upload to Codecov"
