@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="2" numClasses="2" visitedMethods="4" numMethods="4" />
   <Modules>
-    <Module hash="1F6EE1B7-C0C8-4E50-B754-70094023371E">
+    <Module hash="6418ED03-3FEE-4C92-AC1A-85A8A30AF542">
       <ModulePath>SpaceBattle.Lib.dll</ModulePath>
-      <ModuleTime>2022-10-19T08:16:57</ModuleTime>
+      <ModuleTime>2022-10-20T04:28:32</ModuleTime>
       <ModuleName>SpaceBattle.Lib</ModuleName>
       <Files>
         <File uid="1" fullPath="D:\ООАиП\SpaceBattle.Lib\Move\Movecommand.cs" />
