@@ -1,7 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-namespace SpaceBattle.Lib;
-using System.Diagnostics.CodeAnalysis;
-[ExcludeFromCodeCoverage]
+﻿namespace SpaceBattle.Lib;
 public class Vector
 {
     private double[] coords;
