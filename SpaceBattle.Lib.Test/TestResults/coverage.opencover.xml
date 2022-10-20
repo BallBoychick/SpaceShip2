@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CoverageSession>
-  <Summary numSequencePoints="86" visitedSequencePoints="30" numBranchPoints="28" visitedBranchPoints="4" sequenceCoverage="34.88" branchCoverage="14.28" maxCyclomaticComplexity="39" minCyclomaticComplexity="39" visitedClasses="3" numClasses="3" visitedMethods="7" numMethods="18" />
+  <Summary numSequencePoints="56" visitedSequencePoints="51" numBranchPoints="16" visitedBranchPoints="16" sequenceCoverage="91.07" branchCoverage="100" maxCyclomaticComplexity="26" minCyclomaticComplexity="26" visitedClasses="3" numClasses="3" visitedMethods="13" numMethods="14" />
   <Modules>
-    <Module hash="9521193C-85F8-4D61-A493-1FBFFCFF3F79">
+    <Module hash="4E91DD80-A36A-461E-88CA-CC1E742E87E0">
       <ModulePath>SpaceBattle.Lib.dll</ModulePath>
-      <ModuleTime>2022-10-20T10:40:11</ModuleTime>
+      <ModuleTime>2022-10-20T01:59:52</ModuleTime>
       <ModuleName>SpaceBattle.Lib</ModuleName>
       <Files>
         <File uid="1" fullPath="D:\ООАиП\SpaceBattle.Lib\Move\Movecommand.cs" />
@@ -79,42 +79,42 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="72" visitedSequencePoints="16" numBranchPoints="28" visitedBranchPoints="4" sequenceCoverage="22.22" branchCoverage="14.28" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="14" />
+          <Summary numSequencePoints="42" visitedSequencePoints="37" numBranchPoints="16" visitedBranchPoints="16" sequenceCoverage="88.09" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="9" numMethods="10" />
           <FullName>SpaceBattle.Lib.Vector</FullName>
           <Methods>
-            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.String SpaceBattle.Lib.Vector::ToString()</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="19" ordinal="2" sl="19" sc="1" el="19" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="20" ordinal="3" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="21" ordinal="4" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="26" ordinal="9" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="6" uspid="19" ordinal="2" sl="19" sc="1" el="19" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="2" uspid="20" ordinal="3" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="21" ordinal="4" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="1" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="26" ordinal="9" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="19" ordinal="3" path="1" offset="96" offsetend="11" sl="19" fileid="3" />
-                <BranchPoint vc="0" uspid="22" ordinal="0" path="0" offset="52" offsetend="54" sl="22" fileid="3" />
-                <BranchPoint vc="0" uspid="22" ordinal="1" path="1" offset="52" offsetend="68" sl="22" fileid="3" />
-                <BranchPoint vc="0" uspid="19" ordinal="2" path="0" offset="96" offsetend="98" sl="19" fileid="3" />
+                <BranchPoint vc="2" uspid="19" ordinal="3" path="1" offset="96" offsetend="11" sl="19" fileid="3" />
+                <BranchPoint vc="1" uspid="22" ordinal="0" path="0" offset="52" offsetend="54" sl="22" fileid="3" />
+                <BranchPoint vc="1" uspid="22" ordinal="1" path="1" offset="52" offsetend="68" sl="22" fileid="3" />
+                <BranchPoint vc="1" uspid="19" ordinal="2" path="0" offset="96" offsetend="98" sl="19" fileid="3" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="26" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="10" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="26" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="75" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="75" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>SpaceBattle.Lib.Vector SpaceBattle.Lib.Vector::op_Addition(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="3" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="2" bev="1" fileid="3" />
+                <SequencePoint vc="4" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="2" bev="2" fileid="3" />
                 <SequencePoint vc="18" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="2" bev="2" fileid="3" />
                 <SequencePoint vc="6" uspid="31" ordinal="3" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="3" />
                 <SequencePoint vc="6" uspid="32" ordinal="4" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="3" />
@@ -123,181 +123,96 @@
                 <SequencePoint vc="3" uspid="35" ordinal="7" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="20" offsetend="22" sl="29" fileid="3" />
+                <BranchPoint vc="1" uspid="29" ordinal="0" path="0" offset="20" offsetend="22" sl="29" fileid="3" />
                 <BranchPoint vc="3" uspid="29" ordinal="1" path="1" offset="20" offsetend="28" sl="29" fileid="3" />
                 <BranchPoint vc="6" uspid="30" ordinal="3" path="1" offset="73" offsetend="32" sl="30" fileid="3" />
                 <BranchPoint vc="3" uspid="30" ordinal="2" path="0" offset="73" offsetend="75" sl="30" fileid="3" />
               </BranchPoints>
               <MethodPoint vc="8" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="28" ec="1" el="35" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>SpaceBattle.Lib.Vector SpaceBattle.Lib.Vector::op_Subtraction(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
-              <FileRef uid="3" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="41" ordinal="4" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="42" ordinal="5" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="43" ordinal="6" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="44" ordinal="7" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="45" ordinal="8" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="3" />
-              </SequencePoints>
-              <BranchPoints>
-                <BranchPoint vc="0" uspid="38" ordinal="0" path="0" offset="20" offsetend="22" sl="38" fileid="3" />
-                <BranchPoint vc="0" uspid="38" ordinal="1" path="1" offset="20" offsetend="28" sl="38" fileid="3" />
-                <BranchPoint vc="0" uspid="40" ordinal="3" path="1" offset="86" offsetend="44" sl="40" fileid="3" />
-                <BranchPoint vc="0" uspid="40" ordinal="2" path="0" offset="86" offsetend="88" sl="40" fileid="3" />
-              </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="37" ec="1" el="45" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>SpaceBattle.Lib.Vector SpaceBattle.Lib.Vector::op_Multiply(System.Int32,SpaceBattle.Lib.Vector)</Name>
-              <FileRef uid="3" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="47" ordinal="0" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="48" ordinal="1" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="49" ordinal="2" sl="49" sc="1" el="49" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="50" ordinal="3" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="51" ordinal="4" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="52" ordinal="5" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="53" ordinal="6" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="54" ordinal="7" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="3" />
-              </SequencePoints>
-              <BranchPoints>
-                <BranchPoint vc="0" uspid="49" ordinal="1" path="1" offset="53" offsetend="17" sl="49" fileid="3" />
-                <BranchPoint vc="0" uspid="49" ordinal="0" path="0" offset="53" offsetend="55" sl="49" fileid="3" />
-              </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="47" ec="1" el="54" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Boolean SpaceBattle.Lib.Vector::op_Equality(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="58" ordinal="2" sl="58" sc="1" el="58" ec="2" bec="4" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="59" ordinal="3" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="60" ordinal="4" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="12" uspid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="4" bev="4" fileid="3" />
+                <SequencePoint vc="1" uspid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="3" uspid="41" ordinal="4" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="57" ordinal="0" path="0" offset="20" offsetend="22" sl="57" fileid="3" />
-                <BranchPoint vc="0" uspid="57" ordinal="1" path="1" offset="20" offsetend="26" sl="57" fileid="3" />
-                <BranchPoint vc="0" uspid="58" ordinal="5" path="1" offset="76" offsetend="30" sl="58" fileid="3" />
-                <BranchPoint vc="0" uspid="58" ordinal="2" path="0" offset="53" offsetend="55" sl="58" fileid="3" />
-                <BranchPoint vc="0" uspid="58" ordinal="3" path="1" offset="53" offsetend="59" sl="58" fileid="3" />
-                <BranchPoint vc="0" uspid="58" ordinal="4" path="0" offset="76" offsetend="78" sl="58" fileid="3" />
+                <BranchPoint vc="1" uspid="38" ordinal="0" path="0" offset="20" offsetend="22" sl="38" fileid="3" />
+                <BranchPoint vc="2" uspid="38" ordinal="1" path="1" offset="20" offsetend="26" sl="38" fileid="3" />
+                <BranchPoint vc="3" uspid="39" ordinal="5" path="1" offset="76" offsetend="30" sl="39" fileid="3" />
+                <BranchPoint vc="1" uspid="39" ordinal="2" path="0" offset="53" offsetend="55" sl="39" fileid="3" />
+                <BranchPoint vc="2" uspid="39" ordinal="3" path="1" offset="53" offsetend="59" sl="39" fileid="3" />
+                <BranchPoint vc="1" uspid="39" ordinal="4" path="0" offset="76" offsetend="78" sl="39" fileid="3" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="56" ec="1" el="60" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="37" ec="1" el="41" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Boolean SpaceBattle.Lib.Vector::op_Inequality(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="62" ordinal="0" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="63" ordinal="1" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="64" ordinal="2" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="44" ordinal="1" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="45" ordinal="2" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="62" ec="1" el="64" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="43" ec="1" el="45" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="6" nPathComplexity="6" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>System.Boolean SpaceBattle.Lib.Vector::op_GreaterThan(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
-              <FileRef uid="3" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="66" ordinal="0" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="67" ordinal="1" sl="67" sc="1" el="67" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="68" ordinal="2" sl="68" sc="1" el="68" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="69" ordinal="3" sl="69" sc="1" el="69" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="70" ordinal="4" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="71" ordinal="5" sl="71" sc="1" el="71" ec="2" bec="2" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="72" ordinal="6" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="73" ordinal="7" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="3" />
-              </SequencePoints>
-              <BranchPoints>
-                <BranchPoint vc="0" uspid="67" ordinal="3" path="1" offset="59" offsetend="5" sl="67" fileid="3" />
-                <BranchPoint vc="0" uspid="69" ordinal="0" path="0" offset="26" offsetend="28" sl="69" fileid="3" />
-                <BranchPoint vc="0" uspid="69" ordinal="1" path="1" offset="26" offsetend="32" sl="69" fileid="3" />
-                <BranchPoint vc="0" uspid="67" ordinal="2" path="0" offset="59" offsetend="61" sl="67" fileid="3" />
-                <BranchPoint vc="0" uspid="71" ordinal="4" path="0" offset="79" offsetend="81" sl="71" fileid="3" />
-                <BranchPoint vc="0" uspid="71" ordinal="5" path="1" offset="79" offsetend="85" sl="71" fileid="3" />
-              </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="66" ec="1" el="73" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>System.Boolean SpaceBattle.Lib.Vector::op_LessThan(SpaceBattle.Lib.Vector,SpaceBattle.Lib.Vector)</Name>
-              <FileRef uid="3" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="75" ordinal="0" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="76" ordinal="1" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="77" ordinal="2" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="3" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="75" ec="1" el="77" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="True" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Double SpaceBattle.Lib.Vector::get_Item(System.Int32)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="80" ordinal="0" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="48" ordinal="0" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="80" ec="1" el="80" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="48" ec="1" el="48" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="True" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="True" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Void SpaceBattle.Lib.Vector::set_Item(System.Int32,System.Double)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="81" ordinal="0" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="49" ordinal="0" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="81" ec="1" el="81" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="49" ec="1" el="49" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="50" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Boolean SpaceBattle.Lib.Vector::Equals(System.Object)</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="2" uspid="84" ordinal="0" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="2" uspid="85" ordinal="1" sl="85" sc="1" el="85" ec="2" bec="2" bev="1" fileid="3" />
-                <SequencePoint vc="2" uspid="86" ordinal="2" sl="86" sc="1" el="86" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="52" ordinal="0" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="4" uspid="53" ordinal="1" sl="53" sc="1" el="53" ec="2" bec="2" bev="2" fileid="3" />
+                <SequencePoint vc="4" uspid="54" ordinal="2" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="2" uspid="85" ordinal="0" path="0" offset="9" offsetend="11" sl="85" fileid="3" />
-                <BranchPoint vc="0" uspid="85" ordinal="1" path="1" offset="9" offsetend="30" sl="85" fileid="3" />
+                <BranchPoint vc="3" uspid="53" ordinal="0" path="0" offset="9" offsetend="11" sl="53" fileid="3" />
+                <BranchPoint vc="1" uspid="53" ordinal="1" path="1" offset="9" offsetend="30" sl="53" fileid="3" />
               </BranchPoints>
-              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="84" ec="1" el="86" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="52" ec="1" el="54" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Int32 SpaceBattle.Lib.Vector::GetHashCode()</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="88" ordinal="0" sl="88" sc="1" el="88" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="89" ordinal="1" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="90" ordinal="2" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="6" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="88" ec="1" el="90" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="56" ec="1" el="56" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
@@ -305,14 +220,14 @@
               <Name>System.Void SpaceBattle.Lib.Vector::.ctor(System.Double[])</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="10" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="10" uspid="7" ordinal="1" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="10" uspid="8" ordinal="2" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="10" uspid="9" ordinal="3" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="10" uspid="10" ordinal="4" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="26" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="26" uspid="7" ordinal="1" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="26" uspid="8" ordinal="2" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="26" uspid="9" ordinal="3" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="26" uspid="10" ordinal="4" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="6" ec="1" el="10" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="6" ec="1" el="10" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -327,7 +242,7 @@
                 <SequencePoint vc="0" uspid="15" ordinal="4" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="13" offset="13" sc="0" sl="11" ec="1" el="15" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="11" ec="1" el="15" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
