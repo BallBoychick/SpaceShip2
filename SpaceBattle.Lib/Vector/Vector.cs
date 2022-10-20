@@ -8,11 +8,6 @@ public class Vector
         coords = args;
         Size = args.Length;
     }
-    public Vector(int size)
-    {
-        coords = new double[size];
-        Size = size;
-    }
     public override string ToString()
     {
         string str_v = "Vector(";
