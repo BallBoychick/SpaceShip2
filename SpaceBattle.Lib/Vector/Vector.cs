@@ -13,7 +13,7 @@ public class Vector
         coords = new double[size];
         Size = size;
     }
-    public override string? ToString()
+    public override string ToString()
     {
         string str_v = "Vector(";
         for (int i = 0; i < Size; i++)
@@ -33,25 +33,6 @@ public class Vector
         }
         return a;
     }
-    public static Vector operator -(Vector a, Vector b)
-    {
-        if (a.Size != b.Size) throw new System.ArgumentException();
-        Vector x = new Vector(a.Size);
-        for (int i = 0; i < a.Size; i++)
-        {
-            x.coords[i] = a.coords[i] - b.coords[i];
-        }
-        return x;
-    }
-    public static Vector operator *(int a, Vector b)
-    {
-        Vector x = new Vector(b.Size);
-        for (int i = 0; i < b.Size; i++)
-        {
-            x.coords[i] = a * b.coords[i];
-        }
-        return x;
-    }
     public static bool operator ==(Vector a, Vector b)
     {
         if (a.Size != b.Size) return false;
@@ -62,19 +43,6 @@ public class Vector
     {
         return !(a == b);
     }
-    public static bool operator >(Vector a, Vector b)
-    {
-        for (int i = 0; i < Math.Min(a.Size, b.Size); i++)
-        {
-            if (a.coords[i] > b.coords[i]) return true;
-        }
-        if (a.Size > b.Size) return true;
-        return false;
-    }
-    public static bool operator <(Vector a, Vector b)
-    {
-        return !(a > b | a == b);
-    }
     public double this[int i]
     {
         get => coords[i];
@@ -84,8 +52,6 @@ public class Vector
     {
         return obj is Vector v && coords.SequenceEqual(v.coords);
     }
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(coords, Size);
-    }
+    public override int GetHashCode() =>
+       coords.Aggregate(0, (total, next) => HashCode.Combine(total, next));
 }
