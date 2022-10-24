@@ -23,8 +23,9 @@ public class Angle
         if (angle2.dena % angle1.dena == 0)
         {
             z = angle2.dena;
-            xb = angle2.numa;
-            xa = angle1.numa * (angle2.dena / angle1.dena);
+            xb = (angle2.numa * angle1.dena) / z;
+            xa = (angle1.numa * angle2.dena) / z;
+            z = angle2.dena / angle1.dena;
         }
         else if (angle1.dena % angle2.dena == 0)
         {
