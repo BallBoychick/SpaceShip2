@@ -17,11 +17,6 @@ public class Angle
     {
         return numa.ToString() + "/" + dena.ToString();
     }
-    private static int GCD(int angle1, int angle2)
-    {
-        return angle2 == 0 ? angle1 : GCD(angle2, angle1 % angle2);
-    }
-    //a⋅d + b⋅c / c⋅d
     public static Angle operator +(Angle angle1, Angle angle2)
     {
         int z = 0, xa = 0, xb = 0;
