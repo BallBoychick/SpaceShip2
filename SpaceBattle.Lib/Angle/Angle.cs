@@ -49,12 +49,11 @@ public class Angle
     {
         return (!(angle1 == angle2));
     }
-    public override bool Equals(object angle)
+    public override bool Equals(object? obj)
     {
-        if (angle == null || angle.GetType() != GetType())
-            return false;
-        Angle f = (Angle)angle;
-        return (this == f);
+        return obj is Angle angle &&
+         numa == angle.numa &&
+         dena == angle.dena;
     }
     public override int GetHashCode()
     {
