@@ -1,46 +1,68 @@
 namespace SpaceBattle.Lib;
 public class Angle
 {
-    public int numerator;
-    public int denominator;
-    public Angle(int n, int d)
+    public int numa;
+    public int dena;
+
+    public Angle(int angle1, int angle2)
     {
-        this.numerator = n;
-        this.denominator = d;
-        if (d == 0)
+        numa = angle1;
+        dena = angle2;
+        if (dena == 0)
         {
-            throw new System.ArgumentException();
+            throw new System.DivideByZeroException();
         }
     }
     public override string ToString()
     {
-        return $"{this.numerator} / {this.denominator}";
+        return numa.ToString() + "/" + dena.ToString();
     }
-    public static int GCD(int a, int b)
+    private static int GCD(int angle1, int angle2)
     {
-        return b == 0 ? a : GCD(b, a % b);
+        return angle2 == 0 ? angle1 : GCD(angle2, angle1 % angle2);
     }
-    public static Angle operator +(Angle a1, Angle a2)
+    //a⋅d + b⋅c / c⋅d
+    public static Angle operator +(Angle angle1, Angle angle2)
     {
-        int y3 = GCD(a1.numerator * a2.denominator + a2.numerator * a1.denominator, a1.denominator * a2.denominator);
-        return new Angle((a1.numerator * a2.denominator + a2.numerator * a1.denominator) / y3, a1.denominator * a2.denominator / y3);
+        int z = 0, xa = 0, xb = 0;
+        if (angle2.dena % angle1.dena == 0)
+        {
+            z = angle2.dena;
+            xb = angle2.numa;
+            xa = angle1.numa * (angle2.dena / angle1.dena);
+        }
+        else if (angle1.dena % angle2.dena == 0)
+        {
+            z = angle1.numa;
+            xb = angle2.numa * (angle1.dena / angle2.dena);
+            xa = angle1.numa;
+            return new Angle((xb + xa) / z, z);
+        }
+        else
+        {
+            z = angle1.dena * angle2.dena;
+            xa = angle1.numa * angle2.dena;
+            xb = angle2.numa * angle1.dena;
+        }
+        return new Angle(xa + xb, z);
     }
-    public static bool operator ==(Angle a1, Angle a2)
+    public static bool operator ==(Angle angle1, Angle angle2)
     {
-        return !(a1.numerator != a2.numerator || a1.denominator != a2.denominator);
+        return (decimal)angle1.numa * angle2.dena == (decimal)angle2.numa * angle1.dena;
     }
-    public static bool operator !=(Angle a1, Angle a2)
+    public static bool operator !=(Angle angle1, Angle angle2)
     {
-        return !(a1 == a2);
+        return (!(angle1 == angle2));
     }
-    public override bool Equals(object? obj)
+    public override bool Equals(object angle)
     {
-        return obj is Angle a &&
-         numerator == a.numerator &&
-         denominator == a.denominator;
+        if (angle == null || angle.GetType() != GetType())
+            return false;
+        Angle f = (Angle)angle;
+        return (this == f);
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(numerator, denominator);
+        return HashCode.Combine(numa, dena);
     }
 }
