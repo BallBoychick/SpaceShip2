@@ -3,7 +3,6 @@ public class Angle
 {
     public int numa;
     public int dena;
-
     public Angle(int angle1, int angle2)
     {
         numa = angle1;
