@@ -386,5 +386,7 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# JetBrains Rider
-*.sln.iml
+# # JetBrains Rider
+# *.sln.iml
+
+.vscode/settings.json
