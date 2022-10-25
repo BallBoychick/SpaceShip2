@@ -393,3 +393,4 @@ FodyWeavers.xsd
 SpaceBattle.Lib\bin
 SpaceBattle.Lib\obj
 SpaceBattle.Lib.Test\bin
+SpaceBattle.Lib.Test\TestResults
