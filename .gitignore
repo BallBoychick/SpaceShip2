@@ -390,3 +390,6 @@ FodyWeavers.xsd
 # *.sln.iml
 
 .vscode
+SpaceBattle.Lib\bin
+SpaceBattle.Lib\obj
+SpaceBattle.Lib.Test\bin
