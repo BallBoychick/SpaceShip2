@@ -392,3 +392,4 @@ FodyWeavers.xsd
 .vscode
 .vscode/settings.json
 \TestResults
+SpaceBattle.Lib.Test\TestResults\coverage.opencover.xml
