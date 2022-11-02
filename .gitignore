@@ -390,4 +390,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 \TestResults
-.vscode
+\.vscode
