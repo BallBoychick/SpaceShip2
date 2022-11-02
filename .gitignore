@@ -394,3 +394,4 @@ FodyWeavers.xsd
 \TestResults
 TestResults\
 SpaceBattle.Lib.Test\TestResults\coverage.opencover.xml
+SpaceBattle.Lib.Test/TestResults/coverage.opencover.xml
