@@ -2,9 +2,12 @@ name: dotnet package
  
 on: 
  push:
-    branches: ["master"]
+    branches:
+      - develop
+      - skip
  pull_request: 
-    branches: ["master"]
+    branches:    
+      - master
 jobs:
   build:
  
