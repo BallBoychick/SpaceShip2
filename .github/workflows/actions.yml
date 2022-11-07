@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
       - name: Test
-        run: dotnet test --no-build --verbosity d -p:CollectCoverage=true -p:CoverletOutput=/SpaceBattle.Lib.Test\TestResults\coverage.opencover.xml -p:CoverletOutputFormat=opencover
+        run: dotnet test --no-build --verbosity d -p:CollectCoverage=true -p:CoverletOutput=./SpaceBattle.Lib.Test/TestResults/coverage.opencover.xml -p:CoverletOutputFormat=opencover
       - name: "Upload to Codecov"
         uses: "codecov/codecov-action@v3"
         with: 
