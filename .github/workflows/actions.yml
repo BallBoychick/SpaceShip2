@@ -1,6 +1,8 @@
 name: dotnet package
  
-on: [push]
+on:
+  push:
+    branches: ["skip"]
  
 jobs:
   build:
