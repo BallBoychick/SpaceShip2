@@ -1,10 +1,7 @@
 name: dotnet package
  
-on: 
- push:
-    branches: ["develop", "skip"]
- pull_request: 
-    branches: ["master"]
+on: [push]
+ 
 jobs:
   build:
  
@@ -22,9 +19,13 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build --no-restore /p:ContinuousIntegrationBuild=true
       - name: Test
-        run: dotnet test --no-build --verbosity -p:CollectCoverage=true -p:CoverletOutput=../TestResults/coverage.opencover.xml -p:CoverletOutputFormat=opencover
+        run: dotnet test --no-build --verbosity d -p:CollectCoverage=true -p:CoverletOutput=./coverage/coverage.opencover.xml -p:CoverletOutputFormat=opencover
+      - name: Codecov
+        uses: codecov/codecov-action@v3
+        with: 
+          files: SpaceBattle.Lib.Test/coverage/coverage.opencover.xml 
       - name: "Upload to Codecov"
         uses: "codecov/codecov-action@v3"
         with: 
