@@ -22,9 +22,9 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build --no-restore
+        run: dotnet build --configuration Release --no-restore
       - name: Test
-        run: dotnet test --collect:"XPlat Code Coverage"
+        run: dotnet test --no-build --verbosity -p:CollectCoverage=true -p:CoverletOutput=./TestResults/coverage.opencover.xml -p:CoverletOutputFormat=opencover
       - name: "Upload to Codecov"
         uses: "codecov/codecov-action@v3"
         with: 
