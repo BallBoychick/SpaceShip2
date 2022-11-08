@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build --no-restore /p:ContinuousIntegrationBuild=true
       - name: Test
         run: dotnet test --no-restore --verbosity normal
       - name: "Upload to Codecov"
