@@ -52,8 +52,7 @@ public class Angle
     public override bool Equals(object? obj)
     {
         return obj is Angle angle &&
-         numa == angle.numa &&
-         dena == angle.dena;
+         numa * angle.dena == angle.numa * dena;
     }
     public override int GetHashCode()
     {

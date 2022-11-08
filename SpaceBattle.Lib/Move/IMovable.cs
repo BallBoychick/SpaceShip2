@@ -12,10 +12,3 @@ public interface IMovable
         get;
     }
 }
-// class Move(private m: IMovable)
-// {
-//     public void execute()
-//     {
-//         m.Position += m.Velocity;
-//     }
-// }
