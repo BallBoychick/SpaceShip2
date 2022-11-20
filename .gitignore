@@ -391,3 +391,5 @@ FodyWeavers.xsd
 # *.sln.iml
 .vscode
 .vscode/settings.json
+SpaceBattle.Lib.Test/SpaceBattle.Lib.Test.csproj
+SpaceBattle.Lib/SpaceBattle.Lib.csproj
