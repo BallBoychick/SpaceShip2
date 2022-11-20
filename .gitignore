@@ -97,9 +97,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
-*csproj
-SpaceBattle.Lib\SpaceBattle.Lib.csproj
-SpaceBattle.Lib.Test\SpaceBattle.Lib.Test.csproj
+*.csproj
 # Chutzpah Test files
 _Chutzpah*
 
