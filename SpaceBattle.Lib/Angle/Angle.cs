@@ -12,19 +12,24 @@ public class Angle
             throw new System.DivideByZeroException();
         }
     }
+    public static int GCD(int x, int y)
+    {
+    return y == 0 ? x : GCD(y, x % y);
+    }
     public override string ToString()
     {
         return numa.ToString() + "/" + dena.ToString();
     }
     public static Angle operator +(Angle angle1, Angle angle2)
     {
-        int z = 0, xa = 0, xb = 0;
+        int z = 0, xa = 0, xb = 0, gcd = 0;
         if (angle2.dena % angle1.dena == 0)
         {
             z = angle2.dena;
             xb = (angle2.numa * angle1.dena) / z;
             xa = (angle1.numa * angle2.dena) / z;
-            z = angle2.dena / angle1.dena;
+            gcd = GCD(xa + xb, z);
+            return new Angle((xa + xb) / gcd, z / gcd);
         }
         else if (angle1.dena % angle2.dena == 0)
         {
@@ -38,8 +43,9 @@ public class Angle
             z = angle1.dena * angle2.dena;
             xa = angle1.numa * angle2.dena;
             xb = angle2.numa * angle1.dena;
+            return new Angle(xb + xa, z);
         }
-        return new Angle(xa + xb, z);
+        
     }
     public static bool operator ==(Angle angle1, Angle angle2)
     {
